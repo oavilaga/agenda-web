@@ -342,6 +342,17 @@ MIT
 
 @angular/material/table
 
+@angular/material/form-field
+
+@angular/forms
+MIT
+
+@angular/material/core
+
+@angular/material/select
+
+@angular/material/radio
+
 @angular/material/tree
 
 @angular/material/tooltip
@@ -349,11 +360,6 @@ MIT
 @angular/material/sidenav
 
 @angular/material/toolbar
-
-@angular/forms
-MIT
-
-@angular/material/core
 
 @angular/material/list
 

@@ -6,10 +6,10 @@ import { HttpClient } from '@angular/common/http';
 })
 
 export class PersonService {
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   private configUrl = 'assets/config.json';
-  private apiUrl = 'https://agenda-app-oag.now.sh/api/persons';
+  private apiUrl = 'https://agenda-app-oag.now.sh/api/Persons';
 
   getConfig() {
 return this.http.get(this.configUrl);
