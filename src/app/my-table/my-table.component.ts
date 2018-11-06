@@ -13,7 +13,6 @@ export class MyTableComponent implements OnInit {
   persons = new BehaviorSubject<any[]>([]);
   dataSource = new PersonDataSource(this.persons);
 
-  /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
   displayedColumns = ['name', 'lastname', 'nick', 'actions'];
 
   constructor(

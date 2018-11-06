@@ -23,7 +23,6 @@ import { MyDashComponent } from './my-dash/my-dash.component';
 import { MyTreeComponent } from './my-tree/my-tree.component';
 import { MyDdComponent } from './my-dd/my-dd.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
-//import { NewFormComponent } from './new-form/new-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NewFormComponent } from './new-form/new-form.component';
@@ -37,7 +36,7 @@ import { NewFormComponent } from './new-form/new-form.component';
     MyTreeComponent,
     MyDdComponent,
     NewFormComponent,
-    //NewFormComponent
+
   ],
   imports: [
     BrowserModule,
