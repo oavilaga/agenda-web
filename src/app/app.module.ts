@@ -26,6 +26,7 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
 //import { NewFormComponent } from './new-form/new-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { NewFormComponent } from './new-form/new-form.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { HttpClientModule } from '@angular/common/http';
     MyDashComponent,
     MyTreeComponent,
     MyDdComponent,
+    NewFormComponent,
     //NewFormComponent
   ],
   imports: [
